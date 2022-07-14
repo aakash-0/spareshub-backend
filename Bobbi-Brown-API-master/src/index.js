@@ -13,7 +13,7 @@ app.post("/login", login);
 
 app.get("", (req, res) => {
   try {
-    return res.send("Welcome to Bobbi- Brown API");
+    return res.send("Welcome to SparesHub API");
   } catch (err) {
     console.log(err);
   }
